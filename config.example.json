@@ -1,0 +1,24 @@
+{
+    "zulip": {
+        "email": "telegram-bot@redacted.zulipchat.com",
+        "api_key": "U78Ror05KyXe6dOQ",
+        "site": "https://redacted.zulipchat.com"
+    },
+    "telegram": {
+        "bot_token": "814730:AAGjWB63RCRKEPGC4",
+        "chat_id": "191949"
+    },
+    "message_filter": {
+        "enabled": true,
+        "patterns": [
+            {
+                "text": "wallet",
+                "format": "💼 Wallet Update\nFrom: {sender}\nIn: {stream}/{topic}\nMessage: {content}"
+            },
+            {
+                "text": "Wallet Extensions",
+                "format": "🔌 Wallet Extensions Update\nFrom: {sender}\nIn: {stream}/{topic}\nMessage: {content}"
+            }
+        ]
+    }
+}
