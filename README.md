@@ -1,6 +1,6 @@
 # Zulip Telegram Forwarder
 
-A Python bot that forwards specific messages from Zulip to Telegram. Monitor your Zulip streams for important keywords and get instant notifications in your Telegram chat.
+TeleZulip is a Python bot that forwards specific messages from Zulip to Telegram. Monitor your Zulip streams for important keywords and get instant notifications in your Telegram chat.
 
 ## Features
 

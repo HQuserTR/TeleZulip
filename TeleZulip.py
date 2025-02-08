@@ -5,7 +5,7 @@ import time
 from typing import Dict, Any, List
 from datetime import datetime
 
-class ZulipToTelegramBot:
+class TeleZulip:
     def __init__(self, zulip_config: Dict[str, str], telegram_token: str, telegram_chat_id: str, message_filter: Dict[str, Any]):
         # Initialize Zulip client
         self.client = zulip.Client(**zulip_config)
@@ -179,7 +179,7 @@ def main():
         return
     
     # Start the bot
-    bot = ZulipToTelegramBot(
+    bot = TeleZulip(
         zulip_config=zulip_config,
         telegram_token=telegram_config["bot_token"],
         telegram_chat_id=telegram_config["chat_id"],
